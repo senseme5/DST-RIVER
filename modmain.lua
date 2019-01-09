@@ -55,7 +55,7 @@ STRINGS.CHARACTERS.RIVER = require "speech_river"
 
 -- The character's name as appears in-game 
 STRINGS.NAMES.RIVER = "Esc"
-
+-- 주석추가
 -- Add mod character to mod character list. Also specify a gender. Possible genders are MALE, FEMALE, ROBOT, NEUTRAL, and PLURAL.
 AddModCharacter("river", "MALE")
 
