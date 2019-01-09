@@ -57,5 +57,5 @@ STRINGS.CHARACTERS.RIVER = require "speech_river"
 STRINGS.NAMES.RIVER = "Esc"
 
 -- Add mod character to mod character list. Also specify a gender. Possible genders are MALE, FEMALE, ROBOT, NEUTRAL, and PLURAL.
-AddModCharacter("river", "FEMALE")
+AddModCharacter("river", "MALE")
 
