@@ -44,18 +44,14 @@ AddMinimapAtlas("images/map_icons/river.xml")
 local require = GLOBAL.require
 local STRINGS = GLOBAL.STRINGS
 
--- The character select screen lines
 STRINGS.CHARACTER_TITLES.river = "Dark Lord of the Abyss"
-STRINGS.CHARACTER_NAMES.river = "Esc"
+STRINGS.CHARACTER_NAMES.river = "River"
 STRINGS.CHARACTER_DESCRIPTIONS.river = "*Perk 1\n*Perk 2\n*Perk 3"
 STRINGS.CHARACTER_QUOTES.river = "\"...I found the silence under water really cozy\""
 
--- Custom speech strings
 STRINGS.CHARACTERS.RIVER = require "speech_river"
 
--- The character's name as appears in-game 
-STRINGS.NAMES.RIVER = "Esc"
--- 주석추가
--- Add mod character to mod character list. Also specify a gender. Possible genders are MALE, FEMALE, ROBOT, NEUTRAL, and PLURAL.
-AddModCharacter("river", "MALE")
+STRINGS.NAMES.RIVER = "River"
+
+AddModCharacter("river", "FEMALE")
 
